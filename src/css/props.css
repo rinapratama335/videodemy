@@ -3,6 +3,11 @@ body {
   padding: 0px;
 }
 
+button {
+  outline: none;
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,
@@ -35,6 +40,14 @@ ol {
 
 .fixed {
   position: fixed;
+}
+
+.abs {
+  position: absolute;
+}
+
+.rel {
+  position: relative;
 }
 
 .bl {
@@ -75,4 +88,8 @@ ol {
 
 .fontb {
   font-weight: bold;
+}
+
+.fontn {
+  font-weight: normal;
 }
