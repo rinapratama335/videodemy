@@ -8,6 +8,12 @@ button {
   cursor: pointer;
 }
 
+select,
+textarea,
+input {
+  outline: none;
+}
+
 h1,
 h2,
 h3,
@@ -71,6 +77,10 @@ ol {
 }
 
 .s13 {
+  font-size: 13px;
+}
+
+.s14 {
   font-size: 13px;
 }
 
