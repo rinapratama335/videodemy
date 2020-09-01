@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Course1 from "../ui/illustrator.jpg";
 import Course2 from "../ui/course1.jpg";
 
-function CoursePage() {
+function CoursePage(props) {
   const [course, setCourse] = useState({
     ID: 1,
     title:
@@ -50,6 +50,9 @@ function CoursePage() {
       </a>
     );
   }
+
+  // console.log("Isi Props:", props);
+  const courseID = props.match.params.courseid;
 
   return (
     <div className="course-page rel flex">
