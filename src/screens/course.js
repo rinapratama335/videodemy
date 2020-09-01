@@ -125,6 +125,97 @@ function CoursePage() {
             <button className="lnr lnr-screen fs s24" />
           </div>
         </div>
+
+        <div className="extras-block rel flex">
+          <div className="chat rel">
+            <div className="section section-b rel">
+              <h2 className="title s24 fontb">
+                Quick <span className="fontn">Chat</span>
+              </h2>
+
+              <div className="messages flex aic">
+                <div className="bubble rel">
+                  <h2 className="txt ibl fontn s15 c333">Saya baru belajar</h2>
+                </div>
+                <div className="bubble rel">
+                  <h2 className="txt ibl fontn s15 c333">Mantabbb sekali</h2>
+                </div>
+                <div className="bubble bubble-mine rel">
+                  <h2 className="txt ibl fontn s15 c333">Oke gan</h2>
+                </div>
+                <div className="bubble bubble-mine rel">
+                  <h2 className="txt ibl fontn s15 c333">
+                    Jangan lupa berusaha ya!
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="now-watching rel">
+            <div className="tooltip abs fontb cfff">86 Live Now</div>
+
+            <div className="section section-b rel">
+              <h2 className="title s24 fontb">
+                Now <span className="fontn">Watching</span>
+              </h2>
+
+              <div className="you-list rel">
+                <div className="you rel aic flex">
+                  <div className="pic">
+                    <img
+                      src="http://placeimg.com/100/100/guest?tutor-1"
+                      className="bl"
+                    />
+                  </div>
+
+                  <div className="meta rel">
+                    <h2 className="s15 name fontb c333">Agus Mantabb</h2>
+                    <h2 className="s13 uname fontn c777">@agusmantabb</h2>
+                  </div>
+                </div>
+                <div className="you rel aic flex">
+                  <div className="pic">
+                    <img
+                      src="http://placeimg.com/100/100/guest?tutor-2"
+                      className="bl"
+                    />
+                  </div>
+
+                  <div className="meta rel">
+                    <h2 className="s15 name fontb c333">Aggun Sekali</h2>
+                    <h2 className="s13 uname fontn c777">@anggunsekali</h2>
+                  </div>
+                </div>
+                <div className="you rel aic flex">
+                  <div className="pic">
+                    <img
+                      src="http://placeimg.com/100/100/guest?tutor-3"
+                      className="bl"
+                    />
+                  </div>
+
+                  <div className="meta rel">
+                    <h2 className="s15 name fontb c333">Rina Pratama</h2>
+                    <h2 className="s13 uname fontn c777">@rinaP</h2>
+                  </div>
+                </div>
+                <div className="you rel aic flex">
+                  <div className="pic">
+                    <img
+                      src="http://placeimg.com/100/100/guest?tutor-4"
+                      className="bl"
+                    />
+                  </div>
+
+                  <div className="meta rel">
+                    <h2 className="s15 name fontb c333">Laluna</h2>
+                    <h2 className="s13 uname fontn c777">@laluna</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
