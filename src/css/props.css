@@ -60,6 +60,10 @@ ol {
   display: block;
 }
 
+.ibl {
+  display: inline-block;
+}
+
 .noul {
   text-decoration: none;
 }
